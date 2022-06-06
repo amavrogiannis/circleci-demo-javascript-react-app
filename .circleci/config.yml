@@ -8,7 +8,7 @@ workflows:
 jobs:
   test-build:
     docker:
-      - image: cimg/node:latest
+      - image: cimg/node
     steps:
       - checkout
       - run: node --version
